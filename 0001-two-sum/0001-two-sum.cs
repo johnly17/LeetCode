@@ -11,7 +11,7 @@ public class Solution {
                 if (nums[i] + nums[j] == target) {
                     ans1 = i;
                     ans2 = j;
-
+                    break;
                 }
             }
         }
