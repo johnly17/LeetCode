@@ -11,10 +11,9 @@ public class Solution {
                 if (nums[i] + nums[j] == target) {
                     ans1 = i;
                     ans2 = j;
-                    break;
+
                 }
             }
-            
         }
         int[] result = {ans1, ans2};
         
